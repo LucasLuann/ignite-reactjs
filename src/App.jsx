@@ -1,10 +1,9 @@
-import { useState } from 'react'
-import { Teste } from './Teste'
+import { Header } from './components/Header';
+
+import './styles.css';
 
 function App() {
-  return (
-    <Teste />
-  )
+  return <Header />;
 }
 
-export default App
+export default App;
