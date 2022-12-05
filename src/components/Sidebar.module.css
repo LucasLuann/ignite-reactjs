@@ -24,8 +24,8 @@
 
 .sidebar footer a {
   background: transparent;
-  color: var(--green-500);
-  border: 1px solid var(--green-500);
+  color: #00875F;
+  border: 1px solid #00875F;
   border-radius: 8px;
   height: 50px;
   padding: 0 1.5rem;
