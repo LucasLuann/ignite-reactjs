@@ -12,6 +12,7 @@ export function SideBar() {
         <strong>Lucas Brito</strong>
         <span>Front-end Developer</span>
       </div>
+
       <footer>
         <a href="#">Editar seu perfil</a>
       </footer>
