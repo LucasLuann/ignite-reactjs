@@ -23,8 +23,11 @@ export function App() {
             author="Giovanna Ágatha"
             content=" Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat dolor officiis alias ab labore facilis animi nostrum culpa, modi, eum est illum repellendus esse reprehenderit. Labore ipsam ad magnam amet."
           />
+          
         </main>
+        
       </div>
+  
     </div>
   );
 }
