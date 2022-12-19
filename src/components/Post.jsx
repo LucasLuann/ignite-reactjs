@@ -18,6 +18,7 @@ export function Post() {
           Publicado há 1h
         </time>
       </header>
+
       <div className={styles.content}>
         <p>Fala Pessoal 👋</p>
         <p>Mais um projetinho subindo para o meu portfolio...</p>
@@ -29,6 +30,14 @@ export function Post() {
           <a href="#">#neverStopLearning</a>
         </p>
       </div>
+
+      <form className={styles.commentForm}>
+        <strong>Deixe seu feedback</strong>
+
+        <textarea placeholder="Deixe um comentário" />
+
+        <button type="submit">Comentar</button>
+      </form>
     </article>
   );
 }
