@@ -14,30 +14,24 @@ const posts = [
       nome: 'Lucas Luann',
       cargo: 'Desenvolvedor Front-End Jr.',
     },
-    conteudo: [
-      { tipo: 'paragrafo', conteudo: 'Fala galeraa' },
-      {
-        tipo: 'paragrafo',
-        conteudo: 'Subindo mais um projetinho no github...',
-      },
-      { tipo: 'link', conteudo: 'teste.teste/lucas' },
+    content: [
+      { type: 'paragrafo', content: 'Fala galeraa' },
+      { type: 'paragrafo', content: 'Subindo mais um projetinho no github...' },
+      { type: 'link', content: 'teste.teste/lucas' },
     ],
     dataPublicacao: new Date('2023-01-20 20:18:00'),
   },
   {
     id: 2,
     autor: {
-      avatarUrl: 'https://avatars.githubusercontent.com/u/75109074?v=4',
-      nome: 'Lucas Luann',
-      cargo: 'Desenvolvedor Front-End Jr.',
+      avatarUrl: 'https://avatars.githubusercontent.com/u/95453666?v=4',
+      nome: 'Adriel Pereira',
+      cargo: 'Desenvolvedor Back-End Jr.',
     },
-    conteudo: [
-      { tipo: 'paragrafo', conteudo: 'Fala galeraa' },
-      {
-        tipo: 'paragrafo',
-        conteudo: 'Subindo mais um projetinho no github...',
-      },
-      { tipo: 'link', conteudo: 'teste.teste/lucas' },
+    content: [
+      { type: 'paragrafo', content: 'Fala galeraa' },
+      { type: 'paragrafo', content: 'Subindo mais um projetinho no github...' },
+      { type: 'link', content: 'teste.teste/adriel' },
     ],
     dataPublicacao: new Date('2023-01-19 10:18:00'),
   },
@@ -54,7 +48,7 @@ export function App() {
             return (
               <Post
                 autor={post.autor}
-                conteudo={post.conteudo}
+                content={post.content}
                 dataPublicacao={post.dataPublicacao}
               />
             );
