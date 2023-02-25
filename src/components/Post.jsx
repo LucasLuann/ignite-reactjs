@@ -24,8 +24,7 @@ export function Post({ autor, dataPublicacao, content }) {
   function handleCreateNewComment() {
     event.preventDefault();
 
-    comentarios.push(3);
-    console.log(comentarios);
+    setComentarios([...comentarios, comentarios.length + 1]);
   }
 
   return (
